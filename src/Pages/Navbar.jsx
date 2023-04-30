@@ -7,7 +7,6 @@ import NavLogin from '../components/NavLogin';
 function Navbar ({}) {
   const [nav , setNav] = useState(false);
   const [display,setDisplay]=useState(false);
-  const [notif,setNotif]=useState(false)
 
 
     const openLog = ()=>{
@@ -20,9 +19,6 @@ const afficher = ()=> {
   setDisplay (false)
 }
 
-  const showNotifications = () => {
-    setNotif(true)
-  }
     return (
       <div>
       <header>
@@ -33,7 +29,7 @@ const afficher = ()=> {
                <i className="fa-solid fa-bars"></i>
                </div>
                <div className="navbar--logo">
-              <img src="https://expertisefrance.fr/documents/20182/248002/Logo+Afpa/ca89131e-b08f-9308-df84-614b9fd403b2?t=1676650683756" alt="" />
+              <img src="https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1682512135871" alt="" />
             </div>
           </div>
           <div className="navbar--center">

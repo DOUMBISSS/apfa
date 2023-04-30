@@ -4,21 +4,41 @@ import React from 'react';
 export default function  Footer () {
             
 return (
-    <div>
-              <div className='footer--header'>
-                <p><i class="fa-solid fa-location-dot"></i> Cocody Angre 7eme Tranche</p>
-                <p><i class="fa-solid fa-envelope"></i> df@.com</p>
-                {/* <p><i className="fa-solid fa-user"></i> Login</p> */}
-                <p><i class="fa-brands fa-whatsapp"></i> +225 07 77 88 00 82 </p>
-                <p><i class="fa-brands fa-facebook"></i> Facebook</p>
-                <p><i class="fa-brands fa-instagram"></i> Instagram</p>
-                {/* <p><i class="fa-solid fa-cart-arrow-down"></i> Mon Panier</p> */}
-                
-        </div>
-          <div className='footer'>
-          {/* <div className='right'> */}
-            <p>Copyright © 2022,DF COLLECTION </p>
-            {/* </div> */}
+    <div className='footer'>
+      <div className='footer__container'>
+          <div className='footer__container__content'>
+              <h5>Nos contacts sur les reseaux sociaux</h5>
+              <div className='social__media__container'>
+                  <div className='social__media'>
+                  <i className="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div className='social__media'>
+                    <i className="fa-brands fa-twitter"></i>
+                  </div>
+                  <div className='social__media'>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                  <div className='social__media'>
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div className='social__media'>
+                      <i class="fa-brands fa-youtube"></i>
+                  </div>
+              </div>
+          </div>
+          <div className='footer__container__content'>
+              <h5 className='footer__container__header'>Visite virtuelle</h5>
+              <p>Vous avez toujours voulu  savoir à quoi ressemblent nos plateaux de formation ? 
+                Avec nos visites virtuelles 360° HD, 
+                plongez en immersion et découvrez plus de 60 plateaux de formation.
+                </p>
+          </div>
+          <div className='footer__container__content'>
+              <h5 className='footer__container__header'>Votre avenir pro</h5>
+              <p>Etes-vous vraiment fait pour ce métier ? Avez-vous choisi la bonne formation ? 
+                L'Afpa vous accompagne dans la construction de votre projet professionnel
+                </p>
+          </div>
       </div>
     </div>
 
