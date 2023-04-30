@@ -407,46 +407,6 @@ header{
   font-weight: bold;
   color: white;
 }
-.user--part{
-  width: 320px;
-  height: 130px;
-  position: fixed;
-  background-color: white;
-  z-index: 1000;
-  right: 30px;
-  top: -300px;
-  border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 0 0 10px black;
-  transition: ease-in-out 1s;
-  border: 1px solid coral;
-}
-.user--part > i{
-  cursor: pointer;
-}
-.display--user--part{
-  transition: ease-in-out 1s;
-  top: 40px;
-}
-.btn--close--login{
-  cursor: pointer;
-  width: 10%;
-  justify-content: end;
-  display: flex;
-}
-.user--name{
-  width: 90%;
-}
-.user--name--content{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content:flex-end;
-}
-.user--email{
-  font-weight: bold;
-  color: gray ;
-}
 .btn--log{
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -512,15 +472,32 @@ header{
   width: 100%;
   padding: 2rem;
   margin-top: 1rem;
-  backdrop-filter: blur(1.5rem);
+  backdrop-filter: blur(5px 5px);
   border: 1px solid gainsboro;
   border-radius: 0.5rem;
+  backdrop-filter: blur(1rem );
+  /* backdrop-filter: invert(50%); */
   /* background-color: white; */
 }
 .section__searching__content{
   width: 100%;
   text-align: center;
   /* background-color: rgb(242, 242, 242); */
+}
+.section__searching__content__box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.box__input{
+  width: 85%;
+  /* border: 1px solid coral; */
+}
+.box__btn{
+  width:15%;
+  /* border: 1px solid coral; */
 }
 .btn__details__search{
   padding: 0.7rem;
@@ -539,6 +516,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   /* border: 1px solid coral; */
 }
 .cards{
@@ -548,6 +526,7 @@ header{
   border-radius: 0.5rem;
   border: 1px solid gainsboro;
   background-color: white;
+  margin: 0.7rem;
 }
 .cards__header{
   width: 100%;
@@ -562,31 +541,16 @@ header{
   margin-bottom: 0 !important;
   font-size: 0.8rem;
 }
-/* .cards:hover{
+.cards:hover{
   width: 330px;
-  height: 320px;
+  height: 350px;
   transition: 1s;
   box-shadow: black 0 0 9px;
-} */
-/* .cards:hover .card--body{
-  width: 300px;
-  height: 150px;
-  transition: 0.5s;
-  transform: scale(1);
-  border-radius: 0 0 0.5rem 0.5rem;
-  bottom: 0;
-} */
-/* .cards img{
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  object-fit: cover;
-} */
+}
 .cards__body{
   width: 100%;
   height: 85%;
   font-size: 0.8rem;
-  /* border: 1px solid coral; */
 }
 .cards__descriptions{
   width: 100%;
