@@ -22,6 +22,8 @@ font-family: sans-serif;
 }
 body{
   animation: fadeInLeft 1s linear;
+  background-image: url('https://www.afpa.fr/documents/21653/78046784/2200562-VISUEL-1600x628-Boat.jpg/3ea74084-7f4d-4f0e-a454-e8c04d5ac40a?t=1595329393000');
+  background-repeat: no-repeat;
   /* background-color:#d8baec;; */
 }
 header{
@@ -345,13 +347,6 @@ header{
   padding: 20px 0 30px;
   width: 100%;
 }
-/* .btn--header{
-  border-radius: 0.7rem;
-  color: #f3f5f9;
-  width: 130px;
-  padding: 0.6rem;
-  transition: ease-in-out .2s;
-} */
 .btn__login{
   padding: 0.7rem;
   background-color: red;
@@ -384,7 +379,6 @@ header{
   transition: ease-in-out 0.8s;
   top: 2rem;
 }
-
 .user__part > p{
   margin-bottom: 0 !important;
 }
@@ -518,11 +512,10 @@ header{
   width: 100%;
   padding: 2rem;
   margin-top: 1rem;
-  /* background-color: rgb(242, 242, 242); */
   backdrop-filter: blur(1.5rem);
   border: 1px solid gainsboro;
   border-radius: 0.5rem;
-
+  /* background-color: white; */
 }
 .section__searching__content{
   width: 100%;
@@ -550,10 +543,11 @@ header{
 }
 .cards{
   width: 290px;
-  height: 250px;
+  height: 300px;
   padding: 0.3rem;
   border-radius: 0.5rem;
   border: 1px solid gainsboro;
+  background-color: white;
 }
 .cards__header{
   width: 100%;
@@ -642,6 +636,8 @@ header{
   width: 360px;
   height: 400px;
   padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
   border: 1px solid gainsboro;
 }
 .section__filter__cards__header{
@@ -727,6 +723,7 @@ header{
 .section__info{
   width: 100%;
     margin: 2rem 0;
+    background-color: white;
 }
 .section__info__header{
   text-align: center;
@@ -750,7 +747,7 @@ header{
 .section__partenaires{
   width: 100%;
   padding: 0.5rem;
-  margin: 2rem 0;
+  margin-top: 1rem ;
 }
 .section__partenaires__header{
   width: 100%;
@@ -821,7 +818,7 @@ p{
 }
 .footer{
   width: 100%;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   background-color: #f2f4f7;
 }
 .footer__container{
