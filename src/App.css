@@ -780,6 +780,38 @@ header{
 p{
   margin-bottom: 0;
 }
+.buttons--search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid coral; */
+}
+.resultTab{
+  width: 20%;
+  padding: 0.7rem;
+  /* border: 1px solid coral; */
+}
+span {
+  color: #44a33d;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.main__part__filter{
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid gainsboro;
+  margin: 1rem 0;
+  text-align: center;
+}
+.main__part__filter__container{
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer{
   width: 100%;
   /* margin-top: 1rem; */

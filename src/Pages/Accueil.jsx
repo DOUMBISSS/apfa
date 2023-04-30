@@ -6,11 +6,11 @@ import Footer from './Footer';
 
 export default function Accueil () {
 
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
-  // const Search = () =>{
-  //     navigate('/searching')
-  // }
+  const Search = () =>{
+      navigate('/searching')
+  }
 
 
 
@@ -27,7 +27,7 @@ export default function Accueil () {
                 <label for="floatingInput">Une formation , un métier , un mot clé</label>
               </div>
               </div>
-              <button className='btn__details__search'>Rechercher</button>
+              <button className='btn__details__search' onClick={Search}>Rechercher</button>
             </div>
              <Link to='/nos--formations'> <button className='btn__details__search'>Afficher toutes nos formations</button></Link>
             </div>
