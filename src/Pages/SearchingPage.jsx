@@ -32,7 +32,7 @@ export default function SearchingPage () {
             </div>
           </div>
           <div className='main__part__filter'>
-          <h2>RÉSULTATS DE VOTRE RECHERCHE</h2>
+            <h2>RÉSULTATS DE VOTRE RECHERCHE</h2>
             <div className='buttons--search'>
                 <div className='resultTab'>
                     <p> <span>0</span> résultat</p>
@@ -50,6 +50,165 @@ export default function SearchingPage () {
               <div className='main__part__filter__container'>
                     <h6>Désolé,nous n'avons pas trouvé de résultat pour votre recherche</h6>
               </div>
+          </div>
+
+          <div className='main__part__filter'>
+              <h2>RÉSULTATS DE VOTRE RECHERCHE</h2>
+              <div className='buttons--search'>
+                  <div className='resultTab'>
+                      <p> <span>0</span> résultat</p>
+                  </div>
+                  <div className='resultTab'>
+                      <p> <span>0</span> formation</p>
+                  </div>
+                  <div className='resultTab'>
+                      <p> <span>0</span> centre Afpa</p>
+                  </div>
+                  <div className='resultTab'>
+                      <p> <span>0</span> article</p>
+                  </div>
+              </div>
+            </div>
+
+          <div className='section__searching__block'>
+          <div className='bloc__formations'>
+              <div className='bloc__formations__sidebar'>
+                <h6 className='medium'>Affiner votre recherche</h6> 
+                <h6>sélectionnez les filtres ci-dessous pour ajuster votre recherche</h6>
+                <div className="col-12 col-md-12">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                        Domaines
+                                </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                        <p className="btn__filter"></p>
+                                       
+                                </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Régions
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                        <p className="btn__filter"></p>
+                                        <p className="btn__filter"></p>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Mon projet
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                        <p className="btn__filter"></p>
+                                        <p className="btn__filter"></p>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Types de formation
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                        <p className="btn__filter"></p>
+                                        <p className="btn__filter"></p>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                       Durée
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                        <p className="btn__filter"></p>
+                                        <p className="btn__filter"></p>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Modalité pédagogique
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                        <p className="btn__filter"></p>
+                                        <p className="btn__filter"></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                              </div>
+
+              </div>
+
+
+              <div className='bloc__formations__container'>
+                <h6 className='item--list--header'>Nos formations</h6>  
+                <div className='item--list'>
+                      <div className='bloc__formations__container__content'>
+                      <div className='first__part'>
+                    <h6 className='category__formation'>Artisanat d'art</h6>
+                    <Link className='md'><h6>Transformer un bloc de pierre en élément de pierre de 
+                      taille fini - Bloc de compétences du titre professionnel tailleur de pierres</h6>
+                      </Link>
+                      <h6 className='tag'>Formation qualifiante</h6>
+                    </div>
+                    <div className='second__part'>
+                        <Link><button className='btn__details'>Découvrir la formation</button></Link>
+                    </div>
+                      </div>
+                </div>
+                <div className='item--list'>
+                      <div className='bloc__formations__container__content'>
+                      <div className='first__part'>
+                    <h6 className='category__formation'>Artisanat d'art</h6>
+                    <Link className='md'><h6>Transformer un bloc de pierre en élément de pierre de 
+                      taille fini - Bloc de compétences du titre professionnel tailleur de pierres</h6>
+                      </Link>
+                      <h6 className='tag'>Formation qualifiante</h6>
+                    </div>
+                    <div className='second__part'>
+                        <Link><button className='btn__details'>Découvrir la formation</button></Link>
+                    </div>
+                      </div>
+                </div>
+
+                <div className='item--list'>
+                      <div className='bloc__formations__container__content'>
+                      <div className='first__part'>
+                    <h6 className='category__formation'>Artisanat d'art</h6>
+                    <Link className='md'><h6>Transformer un bloc de pierre en élément de pierre de 
+                      taille fini - Bloc de compétences du titre professionnel tailleur de pierres</h6>
+                      </Link>
+                      <h6 className='tag'>Formation qualifiante</h6>
+                    </div>
+                    <div className='second__part'>
+                        <Link><button className='btn__details'>Découvrir la formation</button></Link>
+                    </div>
+                      </div>
+                </div>
+
+              </div>
+          </div>
           </div>
 
         </div>

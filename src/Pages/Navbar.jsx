@@ -29,7 +29,7 @@ const afficher = ()=> {
                <i className="fa-solid fa-bars"></i>
                </div>
                <div className="navbar--logo">
-              <img src="https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1682512135871" alt="" />
+              <Link to='/'><img src="https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1682512135871" alt="" /></Link>
             </div>
           </div>
           <div className="navbar--center">
