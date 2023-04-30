@@ -636,17 +636,19 @@ header{
 }
 .section__info{
   width: 100%;
+    margin-bottom: 1rem;
   /* height: 400px; */
-  border: 1px solid coral;
+  /* border: 1px solid coral; */
+  /* background-color: gainsboro; */
 }
 .section__info__header{
   text-align: center;
   width: 100%;
-  border-bottom: 5px solid black;
+  border-bottom: 4px solid black;
 }
 .section__info__container{
   width: 100%;
-  height: 100px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -655,7 +657,41 @@ header{
 .section__info__content{
   width: 33%;
   height: 100%;
-  border-right: 4px solid coral;
+  padding: 0.7rem;
+  border-right: 2px solid black;
+}
+.section__partenaires{
+  width: 100%;
+  padding: 0.5rem;
+}
+.section__partenaires__header{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border-top: 2px solid cadetblue;
+}
+.section__partenaires__details{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gainsboro;
+}
+.section__partenaires__details__content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section__partenaires__details__images{
+  width: 70px;
+  height: 50px;
+}
+.section__partenaires__details__images img{
+  width: 100%;
+  height: 100%;
 }
 
 

@@ -98,13 +98,62 @@ export default function Accueil () {
               <h2 className='section__info__header'> Fill info</h2>
               <div className='section__info__container'>
                   <div className='section__info__content'>
-
+                      <p>Formez-vous sur le terrain au mérier de technicien vendeur en...</p>
                   </div>
                   <div className='section__info__content'>
-
+                      <p>Technicien supérieur en impression 3D, un métier qui de...  </p>
                   </div>
                   <div className='section__info__content'>
+                      <p>Reconversion professionnelle : focus sur 10 métiers qui marquent le monde </p>
+                  </div>
+              </div>
+          </div>
 
+          <div className='section__partenaires'>
+              <div className='section__partenaires__header'>
+                  <h6>Nos partenaires</h6>
+                  <p>La plupart des formations qualifiantes de l'Afpa sont financées  dans le cadre <br/> de la programmation de formation de votre Conseil régional</p>
+              </div>
+              <div className='section__partenaires__details'>
+                  <div className='section__partenaires__details__content'>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/19566662/LOGO_Horizontal_RVB+%281%29.png/855e2cb6-ea65-bb9a-70bb-aa60261bda0e?t=1673344769000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/17470341/Logo-Nouvelle-Aquitaine.png/a36c596d-114e-4b78-8a54-d8d60ec14efc?t=1604393376000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/17470341/REGION+AUVERGNE+RHONE+ALPES.jpg/12cbe525-42e9-4620-b110-11ae82f01bcd?t=1476363395000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/22188/region-Bretagne.jpg/4e21d632-d377-49d0-baa8-c2c5f22a6c89?t=1439281823000" alt="" />
+                      </div>
+
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/17470341/REGION+BOURGOGNE+FRANCHE+COMTE.jpg/818bb0a0-dce0-4574-a1e0-e48b09f1fbc9?t=1481026454000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/22188/region+Centre-Val+de+Loire-+2015.jpg/645974db-240c-47b8-a7ed-637db0c63d61?t=1445420597000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/22188/region+corse.jpg/6671f307-2342-4bf4-9e39-bd27fe474bc7?t=1439281821000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/22188/IDF-150.jpg/dd635eb4-ae64-4655-a88f-48372f573e7f?t=1581691107000" alt="" />
+                      </div>
+
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/17470341/REGION+LANGUEDOC+ROUSSILLON.jpg/d6f7b8f6-6780-4479-a47f-1c5ef67f7a2f?t=1487579817000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/17470341/REGION+NPC+PICARDIE.jpg/33006687-d94d-4201-b404-07964d8547fa?t=1480416723000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/17470341/REGION+NORMANDIE.jpg/b239e95a-24f3-4f9e-859b-d2d3439a4d46?t=1458746760000" alt="" />
+                      </div>
+                      <div className='section__partenaires__details__images'>
+                      <img src="https://www.afpa.fr/documents/21653/22188/LOGO-PACA.jpg/57b3cf26-669d-45c0-b04b-fbe24bae1967?t=1550045489000" alt="" />
+                      </div>
                   </div>
               </div>
           </div>
