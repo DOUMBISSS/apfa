@@ -280,7 +280,7 @@ header{
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  background-image: url('https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg');
+  background-image: url('https://www.afpa.fr/documents/21653/78046784/2200562-VISUEL-1600x628-Boat.jpg/3ea74084-7f4d-4f0e-a454-e8c04d5ac40a?t=1595329393000');
 }
 .container__login__header{
   width: calc(75% - 0px);
@@ -327,11 +327,10 @@ header{
 }
 .login--content{
   width: 400px;
-  height: 500px;
-  padding: 3rem;
+  padding: 1rem;
   margin-top: 1rem;
-  background-color: rgba(0,0,0,.75);
   color: gray;
+  backdrop-filter: blur(0.7rem);
 }
 .login--page--title{
   color: white;
@@ -364,7 +363,8 @@ header{
 .log__part{
   width: 250px;
   /* background-color: #141414; */
-  backdrop-filter: blur(1rem);
+  /* backdrop-filter: blur(1rem); */
+  background-color: white;
   position: fixed;
   top: -450px;
   right: 2%;
@@ -373,7 +373,6 @@ header{
   border-radius: 0.7rem;
   cursor: pointer;
   padding: 0.7rem;
-  color: #f3f5f9;
 }
 .open__log__part{
   transition: ease-in-out 0.8s;
@@ -392,7 +391,7 @@ header{
 }
 .na{
   text-decoration: none;
-  color: white;
+  color: #5A545A;
   /* color: rgb(15, 52, 90); */
 }
 .na:hover{
@@ -895,6 +894,79 @@ font-weight: bold;
   font-weight: bold;
   padding: 0.7rem;
   color: white;
+}
+.main__part__login{
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid coral;
+}
+.container--connexion{
+  margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container--first--part{
+  width: 50%;
+  height: 95vh;
+  /* background-color: #0069ff; */
+  /* background-color: #031b4e; */
+  background-color: white;
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containter--second--part{
+  width: 50%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container--login{
+  width: 90%;
+}
+/* .login--content{
+  width: 600px;
+  padding-right: 6rem;
+  padding-left: 6rem;
+} */
+.btn{
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* background-color: #0069ff; */
+  background-color: coral;
+}
+.btn:hover{
+  background-color: #031b4e;
+}
+.login--content--header{
+  color: white;
+  font-weight: bold;
+}
+.container--first--part--content--header{
+  color: white;
+  font-size: 3rem;
+}
+.container--login--header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn--header{
+  background-color: #0069ff;
+  border-radius: 0.9rem;
+  color: #f3f5f9;
+  width: 200px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  transition: ease-in-out .2s;
 }
 .footer{
   width: 100%;

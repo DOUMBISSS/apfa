@@ -207,6 +207,21 @@ export default function SearchingPage () {
                       </div>
                 </div>
 
+                <div className='item--list'>
+                      <div className='bloc__formations__container__content'>
+                      <div className='first__part'>
+                    <h6 className='category__formation'>Artisanat d'art</h6>
+                    <Link className='md'><h6>Transformer un bloc de pierre en élément de pierre de 
+                      taille fini - Bloc de compétences du titre professionnel tailleur de pierres</h6>
+                      </Link>
+                      <h6 className='tag'>Formation qualifiante</h6>
+                    </div>
+                    <div className='second__part'>
+                        <Link><button className='btn__details'>Découvrir la formation</button></Link>
+                    </div>
+                      </div>
+                </div>
+
               </div>
           </div>
           </div>
