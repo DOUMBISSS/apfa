@@ -24,7 +24,7 @@ body{
   animation: fadeInLeft 1s linear;
   background-image: url('https://www.afpa.fr/documents/21653/78046784/2200562-VISUEL-1600x628-Boat.jpg/3ea74084-7f4d-4f0e-a454-e8c04d5ac40a?t=1595329393000');
   background-repeat: no-repeat;
-  /* background-color:#d8baec;; */
+  /* background-color:#d8baec; */
 }
 header{
   width: 100%;
@@ -540,6 +540,10 @@ header{
   margin-bottom: 0 !important;
   font-size: 0.8rem;
 }
+.cards__header > i{
+  color: rgb(74, 104, 202);
+  font-weight: bold;
+}
 .cards:hover{
   width: 330px;
   height: 350px;
@@ -789,7 +793,6 @@ p{
 .resultTab{
   width: 20%;
   padding: 0.7rem;
-  /* border: 1px solid coral; */
 }
 span {
   color: #44a33d;
@@ -814,20 +817,16 @@ span {
 .section__searching__block{
   width: 100%;
   margin: 1rem 0;
-  /* border: 1px solid gainsboro; */
 }
 .bloc__formations{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  /* padding: 0.7rem; */
 }
 .bloc__formations__sidebar{
   width: 29%;
   padding: 0.7rem;
-  /* box-shadow: 0 0 5px gainsboro; */
   border: 1px solid gainsboro;
   background-color: white;
   position: sticky;
@@ -836,7 +835,6 @@ span {
 .bloc__formations__container{
   width: 70%;
     padding: 0.7rem;
-  /* box-shadow: 0 0 5px gainsboro; */
   background-color: white;
   border: 1px solid gainsboro;
 }
@@ -935,16 +933,16 @@ font-weight: bold;
   padding-right: 6rem;
   padding-left: 6rem;
 } */
-.btn{
+/* .btn{
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  /* background-color: #0069ff; */
+  background-color: #0069ff;
   background-color: coral;
 }
 .btn:hover{
   background-color: #031b4e;
-}
+} */
 .login--content--header{
   color: white;
   font-weight: bold;
@@ -1015,6 +1013,33 @@ font-weight: bold;
   font-size: 1.2rem;
   border-bottom: 1px solid gainsboro;
   color: #5A545A;
+}
+.footer__item__header{
+  width: 100%;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid gainsboro;
+}
+.footer__item{
+  width: 100%;
+  padding: 1rem;
+  /* border: 3px solid coral; */
+}
+.footer__item__box{
+  width: 130px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  /* border: 3px solid coral; */
+}
+.footer__item__box img{
+  width: 90%;
+  height: 90%;
+  /* border: 1px solid coral; */
 }
 
 
