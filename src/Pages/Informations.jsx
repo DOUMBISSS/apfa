@@ -96,48 +96,6 @@ export default function Informations () {
 
                     </div>
                 </div>
-
-                <div className='cards'>
-                <div className='cards__header'>
-                        <h6>NOS FORMATIONS EN ALTERNANCE</h6>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-                    <div className='cards__body'>
-                    <p>Nos formations prêtes a l'emploi sur plus de 200 métiers</p>
-                    <div className='cards__descriptions'>
-                      <p>Nos formations prêtes à l'emploi </p>
-                      <p> Trouvez votre entreprise</p>
-                      <p> Se former a l'Afpa</p>
-                      <p>Le choix de l'alternance</p>
-                    </div>
-                    <div className='btn__container'>
-                      <button className='btn__more'>Découvrir plus</button>
-                    </div>
-
-                    </div>
-
-                </div>
-
-                <div className='cards'>
-                <div className='cards__header'>
-                        <h6>RECRUTEMENT EN ALTERNANCE</h6>
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <div className='cards__body'>
-                    <p>Un accompagnement complet pour former et recruter vos alternants</p>
-                    <div className='cards__descriptions'>
-                      <p>L'alternance avec l'Afpa</p>
-                      <p> Un recrutement encadré et maîtrisé</p>
-                      <p> Un service clé en main </p>
-                      <p>Un formation en tutorial</p>
-                    </div>
-                    <div className='btn__container'>
-                      <button className='btn__more'>Découvrir plus</button>
-                    </div>
-
-                    </div>
-
-                </div>
             </div>
 
           </div>

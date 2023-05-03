@@ -5,15 +5,6 @@ export default function Register (){
         <div className="container__login__page">
               <div className='login--content'>
                   <h2 className='login--content--header'>Créer mon compte</h2>
-                  <div className="type--of--connexion">
-                    <div className="google">
-                        <p>Inscription avec google</p>
-                    </div>
-                    <div className="facebook">
-                        <p>Inscription avec facebook</p>
-                    </div>
-                  </div>
-                    <p>ou</p>
                       <form>
                       <div className="form-floating mb-3">
                           <input type="text" className="form-control" id="floatingInput" placeholder="Name" />

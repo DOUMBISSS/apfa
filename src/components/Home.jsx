@@ -17,7 +17,7 @@ export default function Home () {
          <div className="container--connexion">
             <div className='container--first--part'>
                 <div className='container--first--part--content'>
-                  <img src="https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1682512135871" alt="" />
+                  <img src="https://www.1min30.com/wp-content/uploads/2018/04/Embl%C3%A8me-AFPA.jpg" alt="" />
                 </div>
             </div>
             <div className='containter--second--part'>
